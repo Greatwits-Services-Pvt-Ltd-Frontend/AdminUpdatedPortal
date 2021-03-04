@@ -1,0 +1,33 @@
+<h1>Add new category</h1>
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Success!</strong> Your data has been entered successfully...
+    <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+<form [formGroup]="addcat" (ngSubmit)="collect()">
+    <div class="form-group">
+      <label>promotionName</label>
+      <input type="text" class="form-control" placeholder="Enter promotionName here" formControlName="promotionName">
+      <label>promotionDesc</label>
+      <input type="text" class="form-control" placeholder="Enter promotionDesc here" formControlName="promotionDesc">
+      <label>startDate</label>
+      <input type="text" class="form-control" placeholder="Enter startDate here" formControlName="startDate">
+      <label>endDate</label>
+      <input type="text" class="form-control" placeholder="Enter endDate here" formControlName="endDate">
+      <label>updatedby</label>
+      <input type="text" class="form-control" placeholder="Enter updatedby here" formControlName="updatedby">
+      <label>updatedAt</label>
+      <input type="text" class="form-control" placeholder="Enter updatedAt here" formControlName="updatedAt">
+      <label>totalSavings</label>
+      <input type="text" class="form-control" placeholder="Enter totalSavings here" formControlName="totalSavings">
+      <label>itemMinPrice</label>
+      <input type="text" class="form-control" placeholder="Enter itemMinPrice here" formControlName="itemMinPrice">
+      <label>itemMinPrice</label>
+      <input type="text" class="form-control" placeholder="Enter sscid here" formControlName="sscid">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

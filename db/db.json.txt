@@ -1,0 +1,8 @@
+{
+  "posts": [
+    { "id": 1, "category": "suprava", "author": "typicode" },
+    { "id": 1, "category": "priyadarshini", "author": "typicode" },
+    { "id": 1, "category": "sahoo", "author": "typicode" }
+  ]
+  
+}

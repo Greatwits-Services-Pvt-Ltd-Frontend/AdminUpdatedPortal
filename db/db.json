@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "category": "suprava",
+      "username": "typicode"
+    },
+    {
+      "id": 2,
+      "category": "priyadarshini",
+      "username": "typicode"
+    },
+    {
+      "category": "Men",
+      "username": "dipaa",
+      "UserId": "8",
+      "Description": "some description",
+      "Date": "5-3-2020",
+      "id": 7
+    }
+  ]
+}
