@@ -1,0 +1,30 @@
+<body>
+<h1 class="head">Add new category</h1>
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Success!</strong> Your data has been entered successfully...
+    <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+<form class="form1"  [formGroup]="addcat" (ngSubmit)="collect()">
+    <div class="form-group"><br><br>
+      <label>CategoryName</label>
+      <input type="text" class="form-control" placeholder="Enter CategoryName here" formControlName="category">
+      <label>UserName</label>
+      <input type="text" class="form-control" placeholder="Enter UserName here" formControlName="username">
+      <label>UserId</label>
+      <input type="text" class="form-control" placeholder="Enter Userid here"formControlName="UserId">
+      <label>Description</label>
+      <input type="text" class="form-control" placeholder="Enter Description"formControlName="Description">
+      <label>Date</label>
+      <input type="text" class="form-control" placeholder="Enter Date"formControlName="Date">
+      
+      
+      
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button><br><br><br><br><br><br>
+  </form>
+  </body>

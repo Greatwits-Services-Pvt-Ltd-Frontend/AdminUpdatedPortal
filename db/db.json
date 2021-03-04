@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "category": "suprava",
+      "username": "typicode"
+    },
+    {
+      "id": 2,
+      "category": "priyadarshini",
+      "username": "typicode"
+    },
+    {
+      "category": "Desktop",
+      "username": "dipaa",
+      "UserId": "8",
+      "Description": "some description",
+      "Date": "5-3-2020",
+      "id": 7
+    },
+    {
+      "category": "AC",
+      "username": "priyanka nishi",
+      "UserId": "001",
+      "Description": "abcd",
+      "Date": "12-23-12",
+      "id": 8
+    },
+    {
+      "category": "car",
+      "username": "pujaa",
+      "UserId": "002",
+      "Description": "kgbjhkgj",
+      "Date": "khln",
+      "id": 9
+    }
+  ]
+}

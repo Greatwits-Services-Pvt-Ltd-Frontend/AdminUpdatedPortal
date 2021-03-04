@@ -1,0 +1,28 @@
+<h1>Update-cat works!</h1>
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Success!</strong> Your data has been updated successfully...
+    <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+<form [formGroup]="editcat" (ngSubmit)="collection()">
+    <div class="form-group">
+      <label>CategoryName</label>
+      <input type="text" class="form-control" placeholder="Enter CategoryName here" formControlName="category">
+      <label>UserName</label>
+      <input type="text" class="form-control" placeholder="Enter UserName here" formControlName="username">
+      <label>UserId</label>
+      <input type="text" class="form-control" placeholder="Enter Userid here"formControlName="UserId">
+      <label>Description</label>
+      <input type="text" class="form-control" placeholder="Enter Description"formControlName="Description">
+      <label>Date</label>
+      <input type="text" class="form-control" placeholder="Enter Date"formControlName="Date"> 
+      
+      
+      
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+  </form>

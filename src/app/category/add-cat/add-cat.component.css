@@ -1,0 +1,22 @@
+.form1{
+/* border: 1px solid red; */
+width: 50%;
+margin-left: 25%;
+background-color:rgb(214, 154, 101);
+}
+/* .form-control{
+    background-color: rgb(206, 146, 146);
+} */
+.head{
+    /* margin-left: 40%; */
+    background-color: rgb(214, 154, 101);
+    border: 2px solid burlywood;
+    /* margin-left: 40%; */
+    text-align: center;
+}
+body{
+    background-color:black;
+}
+/* .btn{
+    background-color: rgb(93, 128, 107);
+} */
